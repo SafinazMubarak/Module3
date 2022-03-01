@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>JavaScript if  else statement :  <Assignment-3</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+//function to change background color
+function changeBg(color) {
+  document.body.style.backgroundColor = color;
+}
+
+// create button
+var blueButton = document.createElement("button");
+blueButton.textContent = "Blue";
+
+// add button to page
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(blueButton);
+
+//add event listener
+blueButton.addEventListener("click", () => {
+  changeBg("blue");
+});
+
+</script>
+
+</body>
+</html>
